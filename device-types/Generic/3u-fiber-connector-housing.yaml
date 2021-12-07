@@ -1,0 +1,45 @@
+---
+manufacturer: Generic
+model: 3U Fiber Connector Housing
+slug: 3u-fiber-connector-housing
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+comments: ''
+device-bays:
+- name: Slot 1
+  label: 'A'
+  description: ''
+- name: Slot 2
+  label: 'B'
+  description: ''
+- name: Slot 3
+  label: 'C'
+  description: ''
+- name: Slot 4
+  label: 'D'
+  description: ''
+- name: Slot 5
+  label: 'E'
+  description: ''
+- name: Slot 6
+  label: 'F'
+  description: ''
+- name: Slot 7
+  label: 'G'
+  description: ''
+- name: Slot 8
+  label: 'H'
+  description: ''
+- name: Slot 9
+  label: 'I'
+  description: ''
+- name: Slot 10
+  label: 'J'
+  description: ''
+- name: Slot 11
+  label: 'K'
+  description: ''
+- name: Slot 12
+  label: 'L'
+  description: ''

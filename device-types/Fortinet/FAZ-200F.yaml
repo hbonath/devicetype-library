@@ -1,0 +1,21 @@
+manufacturer: Fortinet
+model: FortiAnalyzer 200F
+slug: fortianalyzer-200f
+part_number: FAZ-200F
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 90
+    maximum_draw: 180
+interfaces:
+  - name: port1
+    type: 1000base-t
+    mgmt_only: true
+  - name: port2
+    type: 1000base-t
+    mgmt_only: true

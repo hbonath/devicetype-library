@@ -1,0 +1,25 @@
+---
+manufacturer: Generic
+model: LC-144-port Simplex Fiber Patch Panel
+slug: LC-144-port-simplex-fiber-patch-panel
+u_height: 4
+front-ports:
+{%- for i in range(145) %}
+{%-   if i != 0 %}
+  - name: Port {{ i }}A
+    type: lc
+    rear_port: Port {{ i }}A
+  - name: Port {{ i }}B
+    type: lc
+    rear_port: Port {{ i }}B
+{%-   endif %}
+{%- endfor %}
+rear-ports:
+{%- for i in range(145) %}
+{%-   if i != 0 %}
+  - name: Port {{ i }}A
+    type: lc
+  - name: Port {{ i }}B
+    type: lc
+{%-   endif %}
+{%- endfor %}

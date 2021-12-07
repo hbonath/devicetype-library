@@ -1,0 +1,24 @@
+---
+manufacturer: Generic
+model: 6-Strand ST OM1 Module
+slug: 6-strand-st-om1-module
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+front-ports:
+  - name: Port 1/2
+    type: st
+    rear_port: Port 1/2
+  - name: Port 3/4
+    type: st
+    rear_port: Port 3/4
+  - name: Port 5/6
+    type: st
+    rear_port: Port 5/6
+rear-ports:
+  - name: Port 1/2
+    type: st
+  - name: Port 3/4
+    type: st
+  - name: Port 5/6
+    type: st

@@ -1,0 +1,22 @@
+---
+manufacturer: Corning
+model: 2U Fiber Connector Housing
+slug: 2u-fiber-connector-housing
+part_number: CCH-02U
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+comments: ''
+device-bays:
+- name: Slot 1
+  label: 'A'
+  description: ''
+- name: Slot 2
+  label: 'B'
+  description: ''
+- name: Slot 3
+  label: 'C'
+  description: ''
+- name: Slot 4
+  label: 'D'
+  description: ''
